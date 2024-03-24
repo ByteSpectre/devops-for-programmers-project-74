@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      APP_IMAGE_NAME: olgaztv/devops-for-programmers-project-74
+      APP_IMAGE_NAME: ByteSpectre/devops-for-programmers-project-74
       DATABASE_HOST: db
       DATABASE_NAME: postgres
       DATABASE_USERNAME: ${{ secrets.DB_USERNAME }}
